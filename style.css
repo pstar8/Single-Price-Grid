@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+body main {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5rem;
+  align-items: center;
+  max-width: 630px;
+  width: 100%;
+  flex-direction: column;
+}
+body main .top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+  background-color: hsl(0, 0%, 100%);
+  padding: 3rem 2rem;
+}
+body main .top h1 {
+  color: hsl(179, 62%, 43%);
+}
+body main .top h2 {
+  color: hsl(71, 73%, 54%);
+}
+body main .top p {
+  color: hsl(218, 22%, 67%);
+}
+body main .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: normal;
+  justify-content: center;
+  width: 100%;
+  color: hsl(204, 43%, 93%);
+}
+body main .bottom h2 {
+  color: hsl(0, 0%, 100%);
+}
+body main .bottom .bottom_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(179, 62%, 43%);
+  gap: 1rem;
+}
+body main .bottom .bottom_left .price {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.507);
+}
+body main .bottom .bottom_left .price span {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+body main .bottom .bottom_left button {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.401);
+}
+body main .bottom .bottom_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  padding-right: 5rem;
+  background-color: hsla(179, 62%, 43%, 0.749);
+}
+body main .bottom .bottom_right div {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2rem;
+    font-size: 0.75rem;
+  }
+  main h2 {
+    font-size: 0.8rem;
+  }
+  main .bottom {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+  body main {
+    max-width: 613px;
+  }
+  body main h2 {
+    font-size: 0.99rem;
+  }
+  body main .bottom {
+    flex-direction: row !important;
+  }
+}/*# sourceMappingURL=style.css.map */
