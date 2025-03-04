@@ -82,6 +82,13 @@ body main .bottom .bottom_left button {
   width: 100%;
   box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.401);
 }
+body main .bottom .bottom_left button:hover {
+  color: hsl(179, 62%, 43%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.801);
+  cursor: pointer;
+  border: 2px solid hsl(179, 62%, 43%);
+}
 body main .bottom .bottom_right {
   display: flex;
   flex-direction: column;

@@ -81,8 +81,18 @@ body{
                     border-radius: 7px;
                     cursor: pointer;
                     width: 100%;
-                    box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.401)                }
+                    box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.401)          
+                  }
+
+                  button:hover{
+                    color: hsl(179, 62%, 43%);
+                    background-color: hsl(0, 0%, 100%);
+                    box-shadow: 1px 3px 5px rgba(23, 29, 33, 0.801);
+                    cursor: pointer;
+                    border: 2px solid hsl(179, 62%, 43%)
+                  }
             }
+
             .bottom_right{
                 @include flex-container();
                 gap: 1.5rem;
